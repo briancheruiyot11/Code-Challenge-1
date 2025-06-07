@@ -36,7 +36,7 @@ Prompts the user for the number of cups of tea they want to make and calculates 
 * Tea Leaves (Majani): 1 tsp per cup
 * Sugar (Sukari): 2 tsp per cup
 
-Calculation of ingredients
+Calculation of total ingredients needed:
 ```
   let totalWater = numberOfCups * waterPerCup;
   let totalMilk = numberOfCups * milkPerCup;
@@ -62,7 +62,7 @@ Calculates the cost of a boda boda ride based on the entered distance in kilomet
 * Base Fare: KES 50
 * Charge per Kilometer: KES 15
 
-Calculation
+Calculation of travelCharge and totalFare:
 ```
   const baseFare = 50; // KES
   const chargePerKm = 15; // KES per km
@@ -88,7 +88,7 @@ Estimates the transaction fee when sending money, using the following rules:
 * Minimum fee: KES 10
 * Maximum fee: KES 70
 
-Calculation
+Calculation of the minimum and maximum transaction fee using if-else-if condition:
   ```
   const feePercent = 0.015; // 1.5%
   let transactionFee = amountToSend * feePercent;
@@ -99,7 +99,7 @@ Calculation
     transactionFee = 70;
   }
   ```
-Calculation
+Calculation of the total amount debited:
 ```
 const totalDebited = amountToSend + transactionFee;
 ```
@@ -118,7 +118,7 @@ Send Money Securely!
 
 
 ## Author
-Created by Brian Cheruiyot to support Kenyan learners and beginners in practicing JavaScript in simple, practical, and meaningful ways.
+Created by Brian Cheruiyot to support learners and beginners in practicing JavaScript in simple, practical, and meaningful ways.
 
 ## License
 ### MIT License
