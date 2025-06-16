@@ -9,7 +9,7 @@ function makeTea() {
   }
 
   // Ingredient amounts per cup
-  const waterPerCup = 20; // in ml
+  const waterPerCup = 200; // in ml
   const milkPerCup = 50; // in ml
   const teaLeavesPerCup = 1; // in tsp
   const sugarPerCup = 2; // in tsp
