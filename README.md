@@ -31,7 +31,7 @@ Follow these steps to use any of the JavaScript files:
 
 Prompts the user for the number of cups of tea they want to make and calculates the total amount of ingredients required:
 
-* Water: 20 ml per cup
+* Water: 200 ml per cup
 * Milk: 50 ml per cup
 * Tea Leaves (Majani): 1 tsp per cup
 * Sugar (Sukari): 2 tsp per cup
